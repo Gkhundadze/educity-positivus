@@ -1,0 +1,18 @@
+:root {
+    --primary: #B9FF66;
+    --dark: #191A23;
+    --light: #F3F3F3;
+    --white: #fff;
+
+    --first-level-heading: 60px;
+    --second-level-heading: 40px;
+    --third-level-heading: 30px;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 90%;
+}
+section {
+    margin-bottom: 140px;
+}
