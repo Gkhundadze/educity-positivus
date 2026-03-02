@@ -81,3 +81,34 @@ section.welcome {
         justify-content: space-between;
     }
 }
+
+
+
+footer {
+    color: var(--white);
+    & .footer-inner-wrapper {
+        background-color: var(--dark);
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        padding: 55px 60px 55px;
+        & .footer-header {
+            display: flex;
+            justify-content: space-between;
+            & .logo {
+
+            }
+            & nav {
+                & ul {
+                    display: flex;
+                    gap: 40px;
+                }
+            }
+            & .socials-wrapper {
+                & ul {
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+        }
+    }
+}
