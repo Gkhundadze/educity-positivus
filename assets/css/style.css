@@ -47,3 +47,37 @@ header {
         }
     }
 }
+
+
+section.welcome {
+    & .welcome-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-block: 70px;
+        & .text-content {
+            max-width: 420px;
+            & h1 {
+                font-size: var(--first-level-heading);
+            }
+            & p {
+                font-size: 20px;
+                line-height: 28px;
+                margin-block: 35px;
+            }
+            & button {
+                border-radius: 14px;
+                background-color: var(--dark);
+                color: var(--white);
+                padding: 20px 35px;
+                cursor: pointer;
+            }
+        }
+        & .img-content {
+
+        }
+    }
+    & .partners-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
